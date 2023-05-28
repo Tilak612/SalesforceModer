@@ -28,6 +28,25 @@ Follow these steps to install and use the Salesforce Moder Chrome extension:
 3. Choose the desired theme (Dark, Light, or Grey mode) from the dropdown menu.
 4. Enjoy your customized Salesforce workspace!
 
+## Screenshot 
+**Light Mode:**
+   <br/>
+    <br/>
+  <img width="600" alt="Screenshot 2023-05-29 014024" src="https://github.com/Tilak612/SalesforceModer/assets/51970767/8f4bf390-993f-46e9-a164-5c19137b2f77"/>
+  <br/>
+   <br/>
+**Dark Mode:**
+   <br/>
+    <br/>
+  <img width="600" alt="Screenshot 2023-05-29 014135" src="https://github.com/Tilak612/SalesforceModer/assets/51970767/07fa6b2c-299e-41a6-94cf-bd8e4632a727"/>
+  <br/>
+   <br/>
+**Grey Mode:**
+ <br/>
+  <br/>
+  <img width="600" alt="Screenshot 2023-05-29 014217" src="https://github.com/Tilak612/SalesforceModer/assets/51970767/3349e858-6bb3-41a0-895f-aec3710b8309"/>
+
+
 ## Contributing
 
 Contributions are welcome! If you would like to contribute to the development of Salesforce Moder
