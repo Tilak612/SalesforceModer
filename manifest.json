@@ -1,0 +1,38 @@
+{
+  "manifest_version": 3,
+  "name": "Salesforce Moder",
+  "version": "1.0",
+  "description": "Introducing our Chrome extension for Salesforce theme customization! Enhance your Salesforce experience by effortlessly switching between three captivating themes: Dark, Light, and Grey mode. Take control of your workspace and customize Salesforce to match your preferred visual style. With our easy-to-use extension, you can seamlessly transition between themes with just a click, creating a personalized and visually pleasing environment. Upgrade your Salesforce experience today and enjoy a whole new level of aesthetics and comfort.",
+  "action": {
+    "default_title": "Salesforce Moder",
+    "default_icon": "/assert/svg/icon.png"
+  },
+  "icons": {
+    "16": "/assert/icon/favicon16.png",
+    "32": "/assert/icon/favicon32.png",
+    "48": "/assert/icon/icon48.png",
+    "128": "/assert/icon/icon128.png"
+  },
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": ["tabs", "bookmarks", "unlimitedStorage" , "activeTab","scripting"],
+
+  "host_permissions": [
+    "https://*.salesforce.com/*",
+    "https://*.force.com/*",
+    "https://*.cloudforce.com/*",
+    "https://*.visualforce.com/*"
+  ],
+  "content_scripts": [
+    {
+      "js": ["content.js"],
+      "matches": [
+        "https://*.salesforce.com/*",
+        "https://*.force.com/*",
+        "https://*.cloudforce.com/*",
+        "https://*.visualforce.com/*"
+      ]
+    }
+  ]
+}
